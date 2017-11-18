@@ -19,24 +19,18 @@ Usage is fairly simple:
 
 -   **[executable]** is path to the linux executable or script you want to run
 
- 
-
 -   arguments corresponding to `--arg1` will be thrown before the executable
     when we run it in WSL:
 
-`arg1a arg1b ... arg1N C:\path\to\my\linux\script.sh`
-
- 
+    `arg1a arg1b ... arg1N C:\path\to\my\linux\script.sh`
 
 -   arguments corresponding to `--arg2` will be thrown after the executable when
     we run it in WSL, like this:
 
-`C:\path\to\my\linux\script.sh arg2a arg2b ... arg2N`
+    `C:\path\to\my\linux\script.sh arg2a arg2b ... arg2N`
 
- 
-
--   **[options]** are arguments for runnix.  They will not be part of the
-    command that’ll be executed.
+-   **[options]** are arguments for runnix. They will not be part of the command
+    that’ll be executed.
 
 Available options are:
 
@@ -48,6 +42,10 @@ Available options are:
 
  
 
+\*\* TODO: distribution examples...
+
+ 
+
 **Rules:**
 
 -   you **MUST** follow the order shown but
@@ -56,8 +54,6 @@ Available options are:
 
 e.g. one may only use the `--args1` and `--options`, or the `--args1` and
 `--args2`, etc. That's ok.
-
- 
 
 Build
 =====
