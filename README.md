@@ -36,8 +36,6 @@ Available options are:
 
 \-h Print help
 
-\-s Treat the [executable] as script
-
 \-d [str] Choose yourself the distro in which you want to run your command.
 
 NOTE: [str] must be a unique name representing a distro e.g.
