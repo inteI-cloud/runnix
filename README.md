@@ -38,13 +38,10 @@ Available options are:
 
 \-s Treat the [executable] as script
 
-\-d Choose yourself the distro in which you want to run your command
+\-d [str] Choose yourself the distro in which you want to run your command.
 
- 
-
-\*\* TODO: distribution examples...
-
- 
+NOTE: [str] must be a unique name representing a distro e.g.
+Fabrikam.Distro.10.01 or Ubuntu. Default is Ubuntu.
 
 **Rules:**
 
