@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_762AFAB662EC42DD9E0E6DDAEE9E8C9C"
+        "MsmKey" = "8:_27DA9294FEB64FDFA2CDFB7F53DC244C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -37,13 +37,21 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\SetupWizard.msi"
+        "OutputFilename" = "8:Release\\runnixInstaller.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -53,6 +61,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -613,7 +629,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_762AFAB662EC42DD9E0E6DDAEE9E8C9C"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_27DA9294FEB64FDFA2CDFB7F53DC244C"
             {
             "SourcePath" = "8:..\\..\\x64\\Debug\\runnix.exe"
             "TargetName" = "8:"
